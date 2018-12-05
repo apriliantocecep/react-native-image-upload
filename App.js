@@ -70,7 +70,7 @@ export default class App extends Component {
     //   alert('Upload failed!');
     // })
 
-    uploadFileWithProgress("https://server-cflxdwrxtr.now.sh/api/upload", {
+    uploadFileWithProgress("https://server-afkhfqvcol.now.sh/api/upload", {
       method: 'POST',
       body: createFromData(this.state.photos, { userId: '23' })
     },
